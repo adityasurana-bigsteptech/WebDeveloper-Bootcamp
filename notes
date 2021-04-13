@@ -1,0 +1,107 @@
+8 April, 2021
+
+Types of http request:-
+
+#HTTP Methods
+GET - GET is used to request data from a specified resource.
+POST - POST is used to send data to a server to create/update a resource.
+PUT - The difference between POST and PUT is that PUT requests are idempotent. 
+      That is, calling the same PUT request multiple times will always produce the same result. In contrast, calling a POST request repeatedly have side effects of creating the same resource multiple times.
+DELETE -The DELETE method deletes the specified resource.
+
+
+# Tags <cross compatibility browser> - The HTML5 <main> element tag doesn’t appear to be 
+working in any version of Internet Explorer. HTML5 elements like article, header, aside, nav etc are
+supported by IE above 9 ...
+
+# Markup Language ??????? - A markup language is a computer language that uses tags to define elements 
+within a document. It is human-readable, meaning markup files contain standard words, 
+rather than typical programming syntax. 
+
+
+9 April, 2021
+
+# Doctype Html: It is an "information" to the browser about what document type to expect., not
+case sensitive.
+
+# Meta Data: The <meta> tag defines metadata about an HTML document. Metadata is data (information) 
+about data. <meta> tags always go inside the <head> element, and are typically used to specify 
+character set, page description, keywords, author of the document, and viewport settings.
+Metadata will not be displayed on the page, but is machine parsable.
+Metadata is used by browsers (how to display content or reload page), search engines (keywords)
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+# Viewport:The viewport is the user's visible area of a web page.
+
+
+# initial scale :When the page is first loaded the initial-scale property controls the initial zoom level
+ ie 1 Viewport pixel = 1 CSS pixel. User-scalable, maximum-scale and minimum-scale properties 
+ control how the user is able to zoom the page in or out.
+
+# UTF-8: heir goal is to replace the existing character sets with its standard 
+Unicode Transformation Format (UTF). A character in UTF8 can be from 1 to 4 bytes long. 
+16-bit Unicode Transformation Format is a variable-length character encoding for Unicode
+
+# Flexbox: The Flexible Box Layout Module, makes it easier to design flexible responsive layout 
+structure without using float or positioning.
+
+# Video control tag: 
+
+# button:active => after button click chn color or something.. 
+
+# .class:nth-of-type(3n) => to make chng on every 3rd object of class
+
+# pseudo class:-
+  active
+  first
+  first-child
+  nth-of-type
+  hover
+  checked
+  nth-child
+  not()
+
+# pseudo elements:-
+  after
+  before
+  firts-line
+  first-letter
+  selection
+
+  12 April 2021,
+
+  width vs max-width without using media query
+
+  video controls, video tags
+  audio tags, 
+
+  datalist -> have options to select
+
+  options -> have values to put inside
+
+  audiotracklist -> interface is used to represent a list of the audio tracks contained 
+  within a given HTML media element, with each track represented by a separate 
+  AudioTrack object in the list.
+
+
+  Implementation of a PDF file in your HTML web-page is very easy.
+  <embed src="file_name.pdf" width="800px" height="2100px" />
+  <iframe src="file_name.pdf" style="width: 100%;height: 100%;border: none;"></iframe>
+
+  The <map> tag is used to define an image map. An image map is an image with clickable areas.
+  The required name attribute of the <map> element is associated with the <img>'s usemap attribute 
+  and creates a relationship between the image and the map.
+
+  Autofocus -> The autofocus attribute is a boolean attribute. When present, it specifies 
+  that an <input> element should automatically get focus when the page loads.
+
+  output -> The <output> tag is used to represent the result of a calculation 
+          (like one performed by a script).
+
+  ismap(server side mapping) -> The ismap attribute is a boolean attribute. When present, 
+  it specifies that the image is part of a server-side image map (an image map is an 
+  image with clickable areas). When clicking on a server-side image map, the click coordinates are sent to the server as a URL query string.
+
+
+
